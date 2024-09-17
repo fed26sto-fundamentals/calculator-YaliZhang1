@@ -1,0 +1,61 @@
+#calContainer {
+  width: 800px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  padding-top: 50px;
+}
+#screen {
+  color: #fff;
+  height: 200px;
+  width: 600px;
+  background-color: rgb(37, 146, 224);
+  display: flex;
+  justify-content: flex-end; /* 水平方向靠右 */
+  align-items: flex-end; /* 垂直方向靠下 */
+  font-size: 60px;
+  padding: 30px 40px 30px 50px;
+  box-sizing: border-box;
+}
+
+#buttonContainer {
+  height: 130px;
+  height: 500px;
+  width: 600px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.smallGrid {
+  font-family: emoji;
+  border: white solid 1px;
+  font-size: 30px;
+  display: flex; /* 使项目成为flex容器 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  height: 100%; /* 使项目占满整个格子 */
+  border: 1px solid #000; /* 可选：边框用于可视化 */
+}
+.smallGrid:hover {
+  background-color: cornsilk;
+}
+.grey {
+  color: grey;
+}
+.blue {
+  color: rgb(37, 146, 224);
+  font-size: 50px;
+}
+.red {
+  color: red;
+  font-size: 45px;
+  font-family: fangsong;
+}
+.black {
+  color: black;
+}
